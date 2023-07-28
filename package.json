@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --trace-warnings index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "basic-ftp": "^5.0.3",
+    "dotenv": "^16.3.1",
+    "ftps": "^1.2.0",
     "ssh2-sftp-client": "^9.1.0"
   },
-  "devDependencies": {},
   "description": ""
 }
